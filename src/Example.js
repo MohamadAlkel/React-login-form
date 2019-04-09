@@ -33,7 +33,6 @@ class Example extends React.Component {
           <Button variant="primary" onClick={this.handleShow}>
             Login
           </Button>
-          <button  onClick={this.handleClose} >sdgsdg</button>
       
           <Modal show={this.state.show} onHide={this.handleClose}>
 
